@@ -1,6 +1,3 @@
-Absolutely—here is your **full `README.md`** in one single code block, ready to copy into your GitHub project:
-
-```markdown
 # 🚀 AGENT∞ — The Recursive AI Business Builder
 
 AGENT∞ is a full-stack, LLM-powered platform that spawns **autonomous business agents**. These agents build themselves—landing pages, decision trees, funnels, and course content—using your input and real-world content like YouTube and PDFs. It’s niche-agnostic, SEO-optimized, and deployable via Docker, Replit, or AWS.
@@ -16,6 +13,7 @@ AGENT∞ enables anyone to create decision-making agents that launch and maintai
 ---
 
 ## 📦 Project Structure
+
 ```
 
 agent-infinity/
@@ -32,34 +30,35 @@ agent-infinity/
 ├── LICENSE # MIT License
 └── README.md
 
-````
+```
 
 ---
 
 ## 🧱 Tech Stack
 
-| Layer        | Tech                            |
-|--------------|----------------------------------|
-| Frontend     | Next.js + Tailwind               |
-| Backend      | FastAPI or Express.js            |
-| Auth + SQL   | Supabase                         |
-| NoSQL        | MongoDB Atlas                    |
-| LLM Engine   | OpenAI / Claude / DeepSeek       |
-| Vector DB    | Chroma / Pinecone                |
-| RAG          | LangChain / LlamaIndex           |
-| Automation   | n8n                              |
-| Proxy        | Traefik                          |
-| Deployment   | Docker + AWS / Replit            |
+| Layer      | Tech                       |
+| ---------- | -------------------------- |
+| Frontend   | Next.js + Tailwind         |
+| Backend    | FastAPI or Express.js      |
+| Auth + SQL | Supabase                   |
+| NoSQL      | MongoDB Atlas              |
+| LLM Engine | OpenAI / Claude / DeepSeek |
+| Vector DB  | Chroma / Pinecone          |
+| RAG        | LangChain / LlamaIndex     |
+| Automation | n8n                        |
+| Proxy      | Traefik                    |
+| Deployment | Docker + AWS / Replit      |
 
 ---
 
 ## 🛠️ Local Setup (Docker)
 
 1. Clone and enter the project:
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/agent-infinity.git
 cd agent-infinity
-````
+```
 
 2. Copy and configure `.env`:
 
@@ -164,8 +163,3 @@ MIT — Share freely, build ethically, automate with empathy.
 ## ✊ Author
 
 Created by **Caleb Saunders**, CTO of **Caleb Pierre Ventures LLC**, to help those from the bottom build self-sustaining digital empires.
-
-```
-
-Let me know if you want this turned into a live GitHub repo or zipped up for import.
-```
